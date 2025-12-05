@@ -1,0 +1,31 @@
+{
+  "name": "nhs-unified-nursing-validator",
+  "version": "1.0.0",
+  "description": "A project for validating nursing data in the NHS.",
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "test": "jest",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4",
+    "ts-node": "^10.4.0",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.6",
+    "eslint": "^7.32.0",
+    "prettier": "^2.5.1"
+  },
+  "keywords": [
+    "NHS",
+    "nursing",
+    "validation"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
